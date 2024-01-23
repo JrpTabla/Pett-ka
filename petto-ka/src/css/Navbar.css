@@ -1,0 +1,38 @@
+.Navbar {
+    background-color: #D5E5F5;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; /* You can adjust the z-index as needed */
+  }
+  
+
+.Nav-Logo {
+    color: var(--Primary, #3781E3);
+    font-family: Pacifico;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 48px */
+    letter-spacing: 3.2px;
+    align-self: center;
+    text-decoration-line: none;
+}
+
+.Nav-link {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.08px;
+    align-self: center;
+    text-decoration-line: none;
+}
+
+
+
+
+

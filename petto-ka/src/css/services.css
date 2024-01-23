@@ -1,0 +1,64 @@
+.service-header-txt {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 72px */
+}
+
+.service-p-txt {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.2px;
+}
+
+.services-container {
+/*     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #E9F4FF;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.card-svg {
+
+    width: 80px;
+    height: 80px;
+}
+
+
+.card-title {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.2px;
+}
+
+.card-text {
+    color: rgba(58, 58, 58, 0.75);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+}

@@ -1,0 +1,141 @@
+.container-Home {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5E5F5;
+
+}
+
+.UserAdmin-header-text {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 105px */
+    letter-spacing: 1.2px;
+}
+
+.home-p-text {
+    color: rgba(58, 58, 58, 0.75);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.2px;
+}
+
+.home-btn {
+    display: inline-flex;
+    height: 80px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--Primary, #3781E3);
+
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 33px */
+    letter-spacing: 2.2px;
+
+    text-decoration-line: none;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.home-img {
+    margin: auto;
+    width: 450px;
+    z-index: 1;
+}
+
+.home-img-ellipse {
+    left: 53%;
+    top: 14%;
+    position: absolute;
+    
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .home-header-text {
+        font-size: 35px;
+    }
+
+    .home-p-text {
+        font-size: 16px;
+    }
+
+    .home-img-ellipse {
+        left: 48%;
+        top: 14%;
+        position: absolute;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .home-img {
+        width: 400px;
+        margin: auto;
+    }
+
+    .home-img-ellipse {
+       
+ 
+        display: none;
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .home-img {
+        width: 300px;
+        margin: auto;
+    }
+
+    .home-header-text {
+        font-size: 30px;
+    }
+
+    .home-p-text {
+        font-size: 16px;
+    }
+
+    .home-btn {
+        padding: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .home-img {
+        width: 280px;
+        margin: auto;
+    }
+
+
+}
+

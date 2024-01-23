@@ -1,0 +1,238 @@
+.container-UserAdmin {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.UserAdmin-header-text {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 72px */
+}
+
+.UserAdmin-p-text,
+.no-matching-users {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.2px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+
+.cards-container .card-user {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #00214D;
+    border-radius: 20px;
+    border-top-left-radius: 70px;
+    overflow: hidden;
+}
+
+.cards-container .card-user .box {
+    position: absolute;
+    inset: 10px;
+    background: #fff;
+    border: 10px;
+    border-radius: 30px;
+}
+
+.cards-container .card-user .box .icon {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: #00214D;
+    border-bottom-right-radius: 50%;
+    transition: 0.5s;
+}
+
+.cards-container .card-user:hover .box .icon {
+    width: 100%;
+}
+
+.cards-container .card-user .box .icon::before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-top-left-radius: 30px;
+    box-shadow: -5px -5px 0 5px #00214D;
+}
+
+.cards-container .card-user .box .icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right:-30px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-top-left-radius: 30px;
+    box-shadow: -5px -5px 0 5px #00214D;
+}
+
+.cards-container .card-user .box .icon .iconBox {
+    position: absolute;
+    inset: 10px;
+    background: #fff;
+    border-radius: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.cards-container .card-user .box .icon .iconBox ion-icon {
+    font-size: 4em;
+    color: #00214D;
+    --ionicon-stroke-width: 16px;
+}
+
+
+.cards-container .card-user .box .content {
+    position: absolute;
+    top: 150px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.UserName {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 105px */
+    letter-spacing: 1.2px;
+}
+
+.UserID {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 105px */
+    letter-spacing: 1.2px;
+}
+
+.UserEmail {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 105px */
+    letter-spacing: 1.2px;
+}
+
+.UserMobile {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 105px */
+    letter-spacing: 1.2px;
+}
+
+.Userbtn {
+    background: #00214D;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 105px */
+    letter-spacing: 1.2px;
+    transition: 0.5s;
+}
+
+.cards-container .card-user .box .content .Userbtn:hover {
+    letter-spacing: 0.2em;
+}
+
+
+.Pagination-div {
+    display: flex;
+    justify-content: center;
+}
+
+.search-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search-input {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.2px;
+    border-radius: 20px;
+    background: #FFF;
+    /* max-width: 400px; */
+    width: 250px;
+    align-self: center;
+}
+
+.page-link {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 105px */
+    letter-spacing: 1.2px;
+    border: 1px solid #00214D;
+}
+
+.page-item.active .page-link {
+    background: #00214D;
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .UserAdmin-header-text {
+        font-size: 35px;
+    }
+
+    .UserAdmin-p-text,
+    .no-matching-users {
+        font-size: 20px;
+    }
+
+   
+    
+
+}

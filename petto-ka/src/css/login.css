@@ -1,0 +1,47 @@
+.container-reg {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-reg {
+    max-width: 600px;
+
+
+}
+
+.header-text {
+    color: var(--Text, #00214D);
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 72px */
+}
+
+.form-input {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.2px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.btn-reg {
+
+    border-radius: 20px;
+    background: var(--Primary, #3781E3);
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.2px;
+}
